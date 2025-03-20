@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+header{
+    height: 500px;
+    background-image: url(../img/1366x768-minimalist-ovz98lbjx8r6zq94.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+main{
+    text-align: left;
+    background-color: white;
+    height: 700px;
+
+}
+
+footer{
+    background-color: black;
+    color: white;
+    height: 100px;
+}

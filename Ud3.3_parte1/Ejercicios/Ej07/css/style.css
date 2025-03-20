@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/red-moon-minimalist-wallpaper-3840x2160-v0-gbdlwf0cra2e1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    text-align: center;
+    margin-top: 500px;
+    height: 800px;
+    color: white;
+}
+
+header h1{
+    font-size: 8rem;
+}
+
+main{
+    height: 500px;
+    background-color: red;
+}
+
+main h2{
+    text-align: center;
+    padding-top: 30px;
+}
+
+footer{
+    background-color: black;
+    height: 90px;
+}
+
+footer p{
+    text-align: center;
+    color: white;
+    padding-top: 20px ;
+}
