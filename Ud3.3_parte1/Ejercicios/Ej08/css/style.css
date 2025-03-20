@@ -8,7 +8,22 @@
     margin-top: 30px;
     height: 100px;
     width: 500px;
-    background-repeat: repeat;
-    background-image: linear-gradient(to right, red, orange, lightblue);
-    
+    background-image: repeating-linear-gradient(to right, red, orange, lightblue);
+    background-size: 30px 30px;
+}
+
+.C {
+    margin-top: 30px;
+    height: 200px;
+    width: 300px;
+    background-image: radial-gradient(circle at 60% 50%, blue, green, yellow, orange );
+}
+
+.D{
+    margin-top: 30px;
+    height: 200px;
+    width: 200px;
+
+    background-image: conic-gradient(from 180deg, red, yellow, green, blue, lightblue, pink);
+    border-radius: 30px;
 }
