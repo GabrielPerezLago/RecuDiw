@@ -1,0 +1,22 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 200px;
+}
+
+.texto{
+    padding: 10px;
+}
+
+.texto h3{
+    margin-bottom: 10px;
+}
+
+.texto p{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    hyphens: auto;
+}

@@ -1,0 +1,20 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=UnifrakturMaguntia&display=swap');
+
+.parrafoUno{
+    src: url(../font/UnifrakturMaguntia/UnifrakturMaguntia-Regular.ttf);
+    font-family: 'UnifrakturMaguntia';
+}
+
+.parrafoDos{
+    font-family: 'Mea Culpa';
+}
+
+.parrafoTres{
+    font-family: 'Limelight';
+    
+}
+
+.limpio{
+    font-family: Arial, Helvetica, sans-serif;
+}
