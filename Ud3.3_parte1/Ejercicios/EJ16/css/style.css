@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor-float{
+    margin:   10px;
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    float: left;
+    text-align: center;
+    line-height: 100px;
+}
+
+.contenedor-clear{
+    margin:   10px;
+    width: 200px;
+    height: 100px;
+    background-color: grey;
+    text-align: center;
+    line-height: 100px;
+    clear: left;
+}
+
