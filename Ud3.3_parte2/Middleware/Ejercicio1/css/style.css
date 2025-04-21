@@ -1,0 +1,43 @@
+body {
+    font-family: Arial;
+    text-align: center;
+}
+
+.styled-table {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.styled-table caption {
+    caption-side: bottom;
+    font-size: 20px;
+    padding: 10px;
+}
+
+thead th, tbody tr th{
+    background-color: #009688;
+    padding: 20px;
+    color: #fff;
+    border: 1px solid #ddd
+}
+
+tbody tr:nth-child(odd) td{
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover td{
+    background-color: #c7e2e0;
+}
+
+tbody tr td:nth-child(3)::after{
+    content: '€';
+}
+
+
+
+
+
+
+
+
