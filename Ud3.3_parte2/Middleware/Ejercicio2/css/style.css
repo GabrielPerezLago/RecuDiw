@@ -1,7 +1,5 @@
 body{
     font-family: Arial;
-    margin: 0;
-    padding: 0;
 }
 
 .menu{
@@ -22,12 +20,12 @@ body{
 
 .menu li a{
     width: 100%;
+    display: block;
     text-align: center;
     text-decoration: none;
     color: #333;
     padding: 5px;
     background-color: #E5F3FE;
-    content:  ;
 }
 
 .menu li a:hover{
