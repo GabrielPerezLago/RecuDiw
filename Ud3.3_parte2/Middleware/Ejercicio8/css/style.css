@@ -1,0 +1,16 @@
+div {
+    width: 200px;
+    height: 200px;
+    margin: 40px;
+    border: 1px solid black;
+}
+
+.contenedor-uno {
+    transition:transform 1s ease 1s ;
+}
+
+.contenedor-uno:hover{
+    transform: rotate(360deg);
+    background-color: red;
+    width: 300px;
+}
