@@ -14,3 +14,13 @@ div {
     background-color: red;
     width: 300px;
 }
+
+.contenedor-dos{
+    transition: transform 1s ease;
+    background-color: rgba(128, 128, 128, 0.40);
+}
+
+.contenedor-dos:hover{
+    transform: translate(20px, 10px) scale(1.5, 0.5);
+    background-color: pink;
+}
