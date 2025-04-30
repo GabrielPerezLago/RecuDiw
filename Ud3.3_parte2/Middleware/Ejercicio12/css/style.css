@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+.img-container{
+    position: relative;
+    width: 80%;
+}
+
+.overide-text{
+    text-align: center;
+    position: absolute;
+    color: red;
+    /* mix-blend-mode: multiply; */
+    /* mix-blend-mode: overlay; */
+    /* mix-blend-mode: color-burn; */
+}
+
+img {
+    width: 50%;
+    height: 50%;
+}
+
