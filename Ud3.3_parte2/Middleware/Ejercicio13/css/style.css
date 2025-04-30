@@ -1,0 +1,46 @@
+.card {
+    border: 1px solid gray;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.card-shadow {
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.30);
+}
+
+.card-gradient {
+    background: linear-gradient(to top, #3498db, #1f587d);
+    color: white
+}
+
+.filtered-image {
+    filter: brightness(80%) contrast(120%);
+}
+
+.tooltip-container {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip-container:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+   
+}
+
+.tooltip-text {
+    position: absolute;
+    visibility: hidden;
+    background-color: brown;
+    color: white;
+    width: 120px;
+    border-radius: 6px;
+    padding: 5px;
+    top: 120%;
+    left: 30%;
+    opacity: 0;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    
+}
