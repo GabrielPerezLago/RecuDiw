@@ -1,0 +1,12 @@
+.contenedor-online{
+    background-color: rgba(128, 128, 128, 0.40);
+    width: 300px;
+    height: 300px;
+}
+
+.contenedor-local{
+    background-color: rgba(0, 255, 255, 0.464);
+    width: 200px;
+    height: 100px;
+    margin: 0 auto;
+}
