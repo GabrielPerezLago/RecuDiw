@@ -1,0 +1,12 @@
+.translatez {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    perspective: 500px;
+    transform-origin: center;
+    transition: transform 1s ease;
+  }
+  
+  .translatez:hover {
+    transform: translateZ(100px) rotate(45deg);
+  }

@@ -1,0 +1,8 @@
+@keyframes cambia_color {
+    from { background: blue; }
+    to { background: yellow; }
+  }
+  
+  p {
+    animation: cambia_color 2s ease-in-out 5 alternate;
+  }

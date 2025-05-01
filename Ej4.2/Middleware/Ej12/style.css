@@ -1,0 +1,9 @@
+.sliding-text {
+    position: absolute;
+    right: -100%;
+    animation: slide-in 3s forwards;
+  }
+  
+  @keyframes slide-in {
+    to { right: 0; }
+  }

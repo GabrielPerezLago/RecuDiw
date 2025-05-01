@@ -1,0 +1,11 @@
+.click {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    display: inline-block;
+    transition: transform 0.5s ease;
+  }
+  
+  .click:active {
+    transform: scale(0.9);
+  }

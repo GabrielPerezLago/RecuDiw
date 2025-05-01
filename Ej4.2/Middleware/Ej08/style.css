@@ -1,0 +1,13 @@
+.rectangulo{
+    width: 400px;
+    height: 300px;
+    background-color: #3498db; 
+    transition: all 0.3s ease;
+}
+
+.rectangulo:hover{
+    width: 200px;
+    height: 150px;
+    background-color: #e74c3c;
+}
+
