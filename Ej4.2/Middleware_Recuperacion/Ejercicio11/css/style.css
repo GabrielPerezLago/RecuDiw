@@ -1,0 +1,226 @@
+.flash:hover {
+    animation: flash 1s infinite;
+}
+
+@keyframes flash {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+
+.click:hover {
+    animation: click 0.2s;
+}
+
+
+@keyframes click {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0.9);
+    }
+
+    ´ 100% {
+        transform: scale(1);
+    }
+}
+
+.chicle:hover {
+    animation: chicle 0.6s ease-in-out;
+}
+
+@keyframes chicle {
+    0% {
+        transform: scale(1);
+    }
+
+    25% {
+        transform: scale(1.3, 0.8);
+    }
+
+    50% {
+        transform: scale(0.8, 1.3);
+    }
+
+    75% {
+        transform: scale(1.1, 0.9);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.vibrador:hover {
+    animation: vibrador 0.3s infinite;
+}
+
+@keyframes vibrador {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-5px);
+    }
+
+    50% {
+        transform: translateX(5px);
+    }
+
+    75% {
+        transform: translateX(-5px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+.cartel {
+    transform-origin: top center;
+}
+
+.cartel:hover {
+    animation: cartel 1s ease-in-out;
+}
+
+@keyframes cartel {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(15deg);
+    }
+
+    50% {
+        transform: rotate(-10deg);
+    }
+
+    75% {
+        transform: rotate(5deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+
+viaiven:hover {
+    animation: vaiven 1s ease-in-out;
+}
+
+@keyframes identifier {
+    0% {
+        transform: translateX(0) rotate(0deg);
+    }
+
+    25% {
+        transform: translateX(-10px) rotate(-10deg);
+    }
+
+    50% {
+        transform: translateX(10px) rotate(10deg);
+    }
+
+    75% {
+        transform: translateX(-5px) rotate(-5deg);
+    }
+
+    100% {
+        transform: translateX(0) rotate(0deg);
+    }
+}
+
+.caida:hover {
+    animation: caida 1s ease-in-out;
+}
+
+@keyframes caida {
+    0% {
+        transform: translateY(0) rotate(0);
+    }
+
+    30% {
+        transform: translateY(10px) rotate(10deg);
+    }
+
+    60% {
+        transform: translateY(40px) rotate(-10deg);
+    }
+
+    100% {
+        transform: translateY(100px) rotate(0);
+        opacity: 0;
+    }
+}
+
+.girox:hover {
+    transform-style: preserve-3d;
+    animation: girox 2s linear infinite;
+}
+
+@keyframes girox {
+    0% {
+        transform: rotateX(0);
+    }
+
+    100% {
+        transform: rotateX(360deg);
+    }
+}
+
+
+.giroy:hover {
+    transform-style: preserve-3d;
+    animation: giroy 2s linear infinite;
+}
+
+@keyframes giroy {
+    0% {
+        transform: rotateY(0);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+
+.giroout:hover {
+    animation: giroout 2s forwards;
+}
+
+@keyframes giroout {
+    to {
+        transform: rotateY(180deg);
+        opacity: 0;
+    }
+}
+
+.translatez:hover {
+    transform-style: preserve-3d;
+    animation: translatez 1s forwards;
+}
+
+@keyframes translatez {
+    0% {
+        transform: perspective(600px) translateZ(0);
+    }
+
+    100% {
+        transform: perspective(600px) translateZ(200px);
+    }
+}
