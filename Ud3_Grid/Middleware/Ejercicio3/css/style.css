@@ -1,10 +1,11 @@
 .grid {
     display: grid;
     grid-template-areas: 
-    "header header header"
+    ". header header"
     "c2 c3 c3"
     "footer footer footer";
-    justify-content: stretch;
+    grid-template-columns: 2fr 3fr 4fr;
+    
 }
 
 .contenedor {
