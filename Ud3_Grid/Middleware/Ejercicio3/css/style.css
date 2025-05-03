@@ -1,0 +1,23 @@
+.grid {
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "c2 c3 c3"
+    "footer footer footer";
+    justify-content: stretch;
+}
+
+.contenedor {
+   padding: 30px;
+   margin: 1px;
+}
+
+.middle {
+    background-color: rgb(88, 81, 103);
+}
+
+.header{ grid-area: header; background: chocolate;}
+.c2 { grid-area: c2; }
+.c3 { grid-area: c3; }
+.footer { grid-area: footer; background-color: gray;}
+
