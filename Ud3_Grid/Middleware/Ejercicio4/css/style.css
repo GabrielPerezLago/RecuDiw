@@ -37,7 +37,7 @@
     "lista-2 lista-3"
     "lista-4 lista-5"
     ;
-    justify-item: baseline;
+    justify-items: baseline;
 }
 
 .titulo{grid-area: titulo;}
