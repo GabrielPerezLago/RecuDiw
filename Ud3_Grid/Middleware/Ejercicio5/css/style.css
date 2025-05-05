@@ -1,3 +1,12 @@
+:root{
+    --body-color: #f0f0f0;
+    --header-background: #007bff;
+    --main-backgorund: #28a745;
+    --ad--background: #6c757d;
+    --aside-background: yellow;
+    --footer-background: #dc3545;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -6,17 +15,18 @@
 }
 
 body {
+    min-height: 100vh;
     display: grid;
     grid-template-areas: 
     "header header"
     "main aside"
     "footer footer";
-    color: white
+    color: var(--body-color);
 }
 
 header{
     grid-area: header;
-    background-color: rgb(0, 88, 241);
+    background-color: var(--header-background);
     padding: 20px;
     text-align: center;
 }
@@ -38,7 +48,7 @@ header nav a {
 }
 
 main{
-    background-color: green;
+    background-color: var(--main-backgorund);
     grid-area: main;
     padding: 20px;
     margin: 2px 2px 2px 0 ;
@@ -46,25 +56,26 @@ main{
 
 aside{
     grid-area: aside;
-    background-color: yellow;
+    display: grid;
+    justify-content: center;
+    gap: 5px;
+    background-color: var(--aside-background);
     padding: 20px;
     margin: 2px 0 2px 2px ;
 }
 
 aside article {
-    display: grid;
-    justify-items: center;
-    margin: 4px;
-    background-color: gray;
+    background-color: var(--ad--background);
     padding: 20px;
     text-align: center;
+    width: 500px;
 }
 
 
 footer{
     text-align: center;
     grid-area: footer;
-    background-color: red;
+    background-color: var(--footer-background);
     padding: 20px;
 }
 
@@ -76,6 +87,9 @@ footer{
         "main"
         "aside"
         "footer";
+    }
+    aside article{
+        width: 400px;
     }
 }
 
