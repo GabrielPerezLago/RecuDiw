@@ -21,7 +21,7 @@
     "celda-3 sub-grid"
     "celda-5  sub-grid"
     ;
-    justify-item: baseline;
+    justify-items: baseline;
 }
 
 .celda-1{grid-area: celda-1;}
