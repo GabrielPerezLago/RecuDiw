@@ -1,18 +1,47 @@
 .contenedor {
     background-color: rgb(79, 76, 118);
     color: white;
+    padding: 30px;
     text-align: center;
-    padding: 10px;
 }
 
 .sub-contenedor {
     background-color: antiquewhite;
     padding: 10px;
     color: black;
+    padding: 30px;
 }
 
 .grid {
     display: grid;
     grid-gap: 1px;
-    grid-template-areas: ;
+
+    grid-template-areas: 
+    "celda-1 celda-2"
+    "celda-3 sub-grid"
+    "celda-5  sub-grid"
+    ;
+    justify-item: baseline;
 }
+
+.celda-1{grid-area: celda-1;}
+.celda-2{grid-area: celda-2;}
+.celda-3{grid-area: celda-3;}
+.sub-grid{grid-area: sub-grid;}
+.celda-5{grid-area: celda-5;}
+
+.sub-grid{
+    display: grid;
+    grid-template-areas: 
+    "titulo titulo"
+    "lista-2 lista-3"
+    "lista-4 lista-5"
+    ;
+    justify-item: baseline;
+}
+
+.titulo{grid-area: titulo;}
+.lista-2{grid-area: lista-2;}
+.lista-3{grid-area: lista-3;}
+.lista-4{grid-area: lista-4;}
+.lista-5{grid-area: lista-5;}
