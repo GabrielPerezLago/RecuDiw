@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table{
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid gray;
+        }
+
+        thead{
+            color: red;
+        }
+
+        tbody{
+            color: blue;
+        }
+
+        tfoot{
+            color: greenyellow;
+        }
+
+    </style>
+    <title>Tabla</title>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th id="cabecera-uno" scope="col">Cabecera 1</th>
+                <th id="cabecera-dos" headers="cabecera-uno"><abbr>Cabecera 2</abbr></th>
+                <th id="cabecera-tres" headers="cabecera-uno">Cabecera 3</th>
+            </tr> 
+        </thead>
+        <tbody>
+            <tr>
+                <td id="celda-uno" headers="cabecera-uno" scope="row"><abbr>Celda 1</abbr></td>
+                <td headers="celda-uno cabecera-dos">Celda 2</td>
+                <td headers="celda-tres cabecera-tres">Celda 3</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td id="pie-uno" headers="cabecera-uno" scope="row">Pie 1</td>
+                <td headers="cabecera-dos pie-uno">Pie 2</td>
+                <td headers="cabecera-tres pie-uno">Pie 3</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
